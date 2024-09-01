@@ -1,0 +1,47 @@
+.parent {
+    display: grid;
+    grid-template-columns: repeat(14, 1fr);
+    grid-template-rows: repeat(6, 100px); 
+    gap: 5px;
+    width: 100%;
+    max-width: 1500px;
+    margin: auto;
+}
+.child {
+    background-color: goldenrod;
+    display: flex;
+    border: 1px solid white;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    color: white;
+    width: 100%;
+}
+.one { grid-column: 1 / span 12; grid-row: 1 / span 1; }
+    .two { grid-column: 1 / span 6;  grid-row: 2 / span 1; }
+    .three { grid-column: 7 / span 6;  grid-row: 2 / span 1; }
+    .four { grid-column: 1 / span 4;  grid-row: 3 / span 1; }
+    .five { grid-column: 5 / span 4;  grid-row: 3 / span 1; }
+    .six { grid-column: 9 / span 4; grid-row: 3 / span 1; }
+    .seven { grid-column: 1 / span 3;  grid-row: 4 / span 1; }
+    .eight { grid-column: 4 / span 3;  grid-row: 4 / span 1; }
+    .nine { grid-column: 7 / span 3;  grid-row: 4 / span 1; }
+    .ten { grid-column: 10 / span 3; grid-row: 4 / span 1; }
+    .eleven { grid-column: 1 / span 2;  grid-row: 5 / span 1; }
+    .twelve { grid-column: 3 / span 2;  grid-row: 5 / span 1; }
+    .thirteen { grid-column: 5 / span 2;  grid-row: 5 / span 1; }
+    .fourteen { grid-column: 7 / span 2;  grid-row: 5 / span 1; }
+    .fifteen { grid-column: 9 / span 2;  grid-row: 5 / span 1; }
+    .sixteen { grid-column: 11 / span 2; grid-row: 5 / span 1; }
+    .seventeen { grid-column: 1 / span 1;  grid-row: 6 / span 1; }
+    .eighteen { grid-column: 2 / span 1;  grid-row: 6 / span 1; }
+    .nineteen { grid-column: 3 / span 1;  grid-row: 6 / span 1; }
+    .twenty { grid-column: 4 / span 1;  grid-row: 6 / span 1; }
+    .twentyone{ grid-column: 5 / span 1;  grid-row: 6 / span 1; }
+    .twentytwo{ grid-column: 6 / span 1;  grid-row: 6 / span 1; }
+    .twentythree { grid-column: 7 / span 1;  grid-row: 6 / span 1; }
+    .twentyfour { grid-column: 8 / span 1;  grid-row: 6 / span 1; }
+    .twentyfive { grid-column: 9 / span 1;  grid-row: 6 / span 1; }
+    .twentysix { grid-column: 10 / span 1; grid-row: 6 / span 1; }
+    .twentyseven { grid-column: 11 / span 1; grid-row: 6 / span 1; }
+    .twentyeight { grid-column: 12 / span 1; grid-row: 6 / span 1; }
